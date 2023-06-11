@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap")
+
+;root{
+    --maintextcolor:black;
+    --secondarytextcolor:blue;
+    --mainlinkcolor:#0da2b8;
+    --mainBoardercolor: rgb(218,218,218);
+    --mainBgcolor:rgb(249,250,251);
+}
+
+*{
+    font-family: "Readex Pro";
+    line-height:1.5em;
+    box-sizing: border-box;
+    color: var(--maintextcolor);
+}
+body{
+
+    background-color:lightgoldenrodyellow;
+}
+
+p,span,li{
+    color:black;
+    font-size: 1em;
+    font-weight: 500;
+    font-size: large;
+
+}
+a{
+    text-decoration: none;
+    color:#0da2b8 ;
+    font-size: large;
+    font-weight: 500;
+}
+li{
+    line-height:2.0em;
+}
+
+#container--main{
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5em;
+
+}
+.section--page{
+    padding-top: 1em;
+    padding-bottom: 1em;
+   
+
+}
+#container2{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+#heading{
+    font-weight: 300px;
+}
+#user-name{
+    font-size: 3em;
+    line-height: 1em;
+}
+
+#profilepic{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#social{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+}
+#social a:hover{
+    color:black;
+    transition: 0.2s;
+
+}
+
+#heading a:hover{
+    color: black;
+    transition: 0.2s;
+
+}
+#email a:hover{
+    color:black;
+    transition: 0.2s;
+}
+#rema{
+    list-style: none;
+}
+#remb{
+    list-style: none;
+    
+}
+.a{
+    font-size: smaller;
+}
+#remc{
+    list-style: none;
+}
+#remd{
+    list-style: none;
+}
